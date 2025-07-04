@@ -1,0 +1,6 @@
+# Ignore macOS files
+.DS_Store
+
+# Ignore model weights
+models/*.pth
+
