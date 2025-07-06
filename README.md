@@ -108,7 +108,7 @@ ratio of feature vector size to image resolution is achieved, it is only a matte
 soil and hydrology maps, etc).
 
 
-References:
+### References:
 
 Jacobs, J. Q. (2023). Ancient Human Settlement Patterns in Amazonia. Personal Academic Blog.
 
@@ -119,3 +119,7 @@ https://peerj.com/articles/15137
 https://journal.caa-international.org/articles/10.5334/jcaa.45
 
 - As found from https://www.kaggle.com/code/fafa92/i-follow-rivers-visualizing-7500-known-sites
+
+
+### LICENSE
+Creative Commons, see LICENSE
