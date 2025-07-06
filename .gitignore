@@ -4,3 +4,5 @@
 # Ignore model weights
 models/*.pth
 
+# Ignore bfg reports
+.git.bfg-report/
