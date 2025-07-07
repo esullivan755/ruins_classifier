@@ -44,23 +44,23 @@ Importance: High
 
 ### Notebooks
 
-- Data_Loading_Pipeline.ipynb
-- - - Construction of the archeological sites coordinates csv from kaggle data
-- - - Reading of the csv and generating NDBI, NDVI, RGB, Elevation images (split up through ten cells as each takes several hours)
-- - - Reading a 2nd csv hand labeled as true negatives to train the model
-- - - Converting these images into a single tensor per tile through preprocessing (normalizing, resizing, concatenating)
-- - - Extracting the tensors from kaggle dataset
-- - - Image dataset class
-- - - Train/test/val split, plotting function, and resnet training loop
-- - - Extracting features from saved resnet weights for best val accuracy, saving to directory
+Data_Loading_Pipeline.ipynb
+- Construction of the archeological sites coordinates csv from kaggle data
+- Reading of the csv and generating NDBI, NDVI, RGB, Elevation images (split up through ten cells as each takes several hours)
+- Reading a 2nd csv hand labeled as true negatives to train the model
+- Converting these images into a single tensor per tile through preprocessing (normalizing, resizing, concatenating)
+- Extracting the tensors from kaggle dataset
+- Image dataset class
+- Train/test/val split, plotting function, and resnet training loop
+- Extracting features from saved resnet weights for best val accuracy, saving to directory
 
-- Ruins_Classifier_Pipeline.ipynb
-- - - Image generating functions
-- - - Feature loading, K means Clustering + visualization plots
-- - - Sorting for top n=600 features in desired cluster
-- - - Random forest classifier training, pca + confusion matrix
-- - - Isolation forest, feature per patch, and visualizing functions
-- - - ChatGPT response + visualization for final submission site
+Ruins_Classifier_Pipeline.ipynb
+- Image generating functions
+- Feature loading, K means Clustering + visualization plots
+- Sorting for top n=600 features in desired cluster
+- Random forest classifier training, pca + confusion matrix
+- Isolation forest, feature per patch, and visualizing functions
+- ChatGPT response + visualization for final submission site
 
 
 ### Datasets
