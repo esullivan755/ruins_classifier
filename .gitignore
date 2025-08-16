@@ -6,3 +6,4 @@ models/*.pth
 
 # Ignore bfg reports
 .git.bfg-report/
+
